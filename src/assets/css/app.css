@@ -42,7 +42,7 @@
 	--white-bg: #ffffff;
 	--orange-bg: #ff4612;
 	--orange-bg2: #ff8064;
-	--accent-bg: #bff747;
+	--accent-bg: #fcb040;
 	--yellow-bg: #ffe757;
 	--corn-bg: #f4b905;
 	--blue-bg: #0000ff;
@@ -2269,7 +2269,7 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 
 
 
-.aximo-footer-bottom .row:nth-child(2) {
+.aximo-footer-bottom .row .col-lg-6:nth-child(2) {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -3814,9 +3814,17 @@ h1.post__title {
 	color: var(--white-smoke);
 }
 
+@media (max-width:768px) {
+	.aximo-hero-content h1 img {
+		right: 5% !important;
+	}
+}
+
+
+
 .aximo-hero-content h1 img {
 	top: 17px;
-	right: -17%;
+	right: 6%;
 	position: absolute;
 }
 
@@ -5386,9 +5394,9 @@ span.aximo-hero-shape-title2 {
 	transform: scale(1);
 }
 
-.aximo-team-thumb img:hover {
+/* .aximo-team-thumb img:hover {
 	transform: translate3d(0, 0, 0) scale(1.05);
-}
+} */
 
 .aximo-team-data {
 	margin-top: 25px;
@@ -7116,6 +7124,10 @@ img.aximo-video-circle {
 	}
 }
 
+.aximo-social-icon.social-large ul {
+	display: flex;
+	align-items: center;
+}
 .aximo-social-icon ul li {
 	margin: 0 3px;
 	display: inline-block;

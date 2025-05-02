@@ -1,178 +1,176 @@
 export const routes = [
 	{
-		title: "Demo",
+		title: "Home",
 		href: "#",
-		subRoutes: [
-			{
-				title: "Design Agency",
-				href: "",
-			},
-			{
-				title: "Startup Agency",
-				href: "home-two",
-			},
-			{
-				title: "SEO Agency",
-				href: "home-three",
-			},
-			{
-				title: "Business Consultation",
-				href: "home-four",
-			},
-			{
-				title: "Digital Marketing",
-				href: "home-five",
-			},
-			{
-				title: "Interior Design Agency",
-				href: "home-six",
-			},
-			{
-				title: "Advertising agency",
-				href: "home-seven",
-			},
-		],
 	},
 	{
 		title: "About Us",
 		href: "about-us",
 	},
 	{
-		title: "Pages",
+		title: "Our Services",
 		href: "#",
 		subRoutes: [
 			{
-				title: "About Us",
-				href: "about-us",
+				title: "Graphics",
+				href: "our-services/graphic-design",
 			},
 			{
-				title: "Pricing",
-				href: "pricing",
+				title: "Web Design",
+				href: "our-services/website-design",
 			},
 			{
-				title: "Blog",
-				href: "#",
-				subRoutes: [
-					{
-						title: "Our Blog",
-						href: "blog",
-					},
-					{
-						title: "Blog Grid",
-						href: "blog-grid",
-					},
-					{
-						title: "Blog Details",
-						href: "single-blog",
-					},
-				],
+				title: "Animation",
+				href: "our-services/animation",
 			},
 			{
-				title: "Service",
-				href: "#",
-				subRoutes: [
-					{
-						title: "Service",
-						href: "service",
-					},
-					{
-						title: "Service Details",
-						href: "single-service",
-					},
-				],
+				title: "Content writing",
+				href: "our-services/content-writing",
 			},
 			{
-				title: "Team",
-				href: "#",
-				subRoutes: [
-					{
-						title: "Team",
-						href: "team",
-					},
-					{
-						title: "Team Details",
-						href: "single-team",
-					},
-				],
+				title: "Commercial shoot",
+				href: "our-services/commercial-shoot",
 			},
 			{
-				title: "Portfolio",
-				href: "#",
-				subRoutes: [
-					{
-						title: "Portfolio One Column",
-						href: "portfolio-one",
-					},
-					{
-						title: "Portfolio Two Column",
-						href: "portfolio-two",
-					},
-					{
-						title: "Single Portfolio",
-						href: "single-portfolio",
-					},
-				],
+				title: "Digital Marketing",
+				href: "our-services/digital-marketing",
 			},
 			{
-				title: "Utility",
-				href: "#",
-				subRoutes: [
-					{
-						title: "Faq",
-						href: "faq",
-					},
-					{
-						title: "Error 404",
-						href: "error-page",
-					},
-					{
-						title: "Testimonial",
-						href: "testimonial",
-					},
-					{
-						title: "Coming Soon",
-						href: "coming-soon",
-					},
-				],
+				title: "Ad Films",
+				href: "our-services/ad-films",
 			},
-			{
-				title: "Account",
-				href: "#",
-				subRoutes: [
-					{
-						title: "Sign Up",
-						href: "sign-up",
-					},
-					{
-						title: "Sign In",
-						href: "sign-in",
-					},
-					{
-						title: "Reset Password",
-						href: "reset-password",
-					},
-				],
-			},
+			// {
+			// 	title: "Pricing",
+			// 	href: "pricing",
+			// },
+			// {
+			// 	title: "Blog",
+			// 	href: "#",
+			// 	subRoutes: [
+			// 		{
+			// 			title: "Our Blog",
+			// 			href: "blog",
+			// 		},
+			// 		{
+			// 			title: "Blog Grid",
+			// 			href: "blog-grid",
+			// 		},
+			// 		{
+			// 			title: "Blog Details",
+			// 			href: "single-blog",
+			// 		},
+			// 	],
+			// },
+			// {
+			// 	title: "Service",
+			// 	href: "#",
+			// 	subRoutes: [
+			// 		{
+			// 			title: "Service",
+			// 			href: "service",
+			// 		},
+			// 		{
+			// 			title: "Service Details",
+			// 			href: "single-service",
+			// 		},
+			// 	],
+			// },
+			// {
+			// 	title: "Team",
+			// 	href: "#",
+			// 	subRoutes: [
+			// 		{
+			// 			title: "Team",
+			// 			href: "team",
+			// 		},
+			// 		{
+			// 			title: "Team Details",
+			// 			href: "single-team",
+			// 		},
+			// 	],
+			// },
+			// {
+			// 	title: "Portfolio",
+			// 	href: "#",
+			// 	subRoutes: [
+			// 		{
+			// 			title: "Portfolio One Column",
+			// 			href: "portfolio-one",
+			// 		},
+			// 		{
+			// 			title: "Portfolio Two Column",
+			// 			href: "portfolio-two",
+			// 		},
+			// 		{
+			// 			title: "Single Portfolio",
+			// 			href: "single-portfolio",
+			// 		},
+			// 	],
+			// },
+			// {
+			// 	title: "Utility",
+			// 	href: "#",
+			// 	subRoutes: [
+			// 		{
+			// 			title: "Faq",
+			// 			href: "faq",
+			// 		},
+			// 		{
+			// 			title: "Error 404",
+			// 			href: "error-page",
+			// 		},
+			// 		{
+			// 			title: "Testimonial",
+			// 			href: "testimonial",
+			// 		},
+			// 		{
+			// 			title: "Coming Soon",
+			// 			href: "coming-soon",
+			// 		},
+			// 	],
+			// },
+			// {
+			// 	title: "Account",
+			// 	href: "#",
+			// 	subRoutes: [
+			// 		{
+			// 			title: "Sign Up",
+			// 			href: "sign-up",
+			// 		},
+			// 		{
+			// 			title: "Sign In",
+			// 			href: "sign-in",
+			// 		},
+			// 		{
+			// 			title: "Reset Password",
+			// 			href: "reset-password",
+			// 		},
+			// 	],
+			// },
 		],
 	},
 	{
-		title: "Blog",
-		href: "blog",
-		subRoutes: [
-			{
-				title: "Blog",
-				href: "blog",
-			},
-			{
-				title: "Blog Grid",
-				href: "blog-grid",
-			},
-			{
-				title: "Blog Details",
-				href: "single-blog",
-			},
-		],
+		title: "Academy",
+		href: "blog-grid",
 	},
+	// {
+	// 	title: "Blog",
+	// 	href: "blog-grid",
+	// 	subRoutes: [
+	// 		{
+	// 			title: "Blog",
+	// 			href: "blog",
+	// 		},
+	// 		{
+	// 			title: "Blog Grid",
+	// 			href: "blog-grid",
+	// 		},
+	// 		{
+	// 			title: "Blog Details",
+	// 			href: "single-blog",
+	// 		},
+	// 	],
+	// },
 	{
 		title: "Contact Us",
 		href: "contact-us",

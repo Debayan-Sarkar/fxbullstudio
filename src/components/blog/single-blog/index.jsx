@@ -3,22 +3,22 @@ import RecentPosts from "../RecentPosts";
 import Search from "../Search";
 import Tags from "../Tags";
 import BlogDetails from "./BlogDetails";
-function SingleBlog() {
+function SingleBlog({blogs}) {
 	return (
 		<div className="section post-details-page aximo-section-padding2">
 			<div className="container">
 				<div className="row">
-					<div className="col-lg-8">
-						<BlogDetails />
+					<div className="col-lg-12">
+						<BlogDetails blogArr={blogs}/>
 					</div>
-					<div className="col-lg-4">
+					{/* <div className="col-lg-4">
 						<div className="right-sidebar">
 							<Search />
 							<Categories />
 							<RecentPosts />
 							<Tags />
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</div>

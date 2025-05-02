@@ -25,8 +25,7 @@ function ContactInfo() {
 								</div>
 								<div className="aximo-contact-info-data">
 									<span>Call us</span>
-									<p>+088-234-6532-789</p>
-									<p>+088-456-3217-005</p>
+									<p>+91 8866661139</p>
 								</div>
 							</div>
 						</a>
@@ -38,8 +37,8 @@ function ContactInfo() {
 									<img src={EmailImg} alt="Email" />
 								</div>
 								<div className="aximo-contact-info-data">
-									<span>Call us</span>
-									<p>example@gmail.com</p>  
+									<span>Email us</span>
+									<p>info@fxbullstudio.in</p>  
 								</div>
 							</div>
 						</a>
@@ -51,7 +50,7 @@ function ContactInfo() {
 							</div>
 							<div className="aximo-contact-info-data">
 								<span>Office address</span>
-								<p>4132 Thornridge City, New York.</p>
+								<p>Ichapur, Howrah, WB 711104</p>
 							</div>
 						</div>
 					</div>

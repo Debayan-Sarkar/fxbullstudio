@@ -1,5 +1,6 @@
 import Shape1Img from "../../../assets/images/v1/shape1.png";
 import Star2Img from "../../../assets/images/v1/star2.png";
+import WhatsAppIcon from "../../common/Whatsapp/Whatsapp";
 function FooterContent() {
 	return (
 		<div className="aximo-default-content light position-relative">
@@ -22,7 +23,7 @@ function FooterContent() {
 					<ul>
 						<li>Give us a call:</li>
 						<li>
-							<a href="tel:(123) 456-7890">(123) 456-7890</a>
+							<a href="tel:8866661139">+91 8866661139</a>
 						</li>
 					</ul>
 				</div>
@@ -30,7 +31,7 @@ function FooterContent() {
 					<ul>
 						<li>Send us an email:</li>
 						<li>
-							<a href="mailto:info@mthemeus.com">info@mthemeus.com</a>
+							<a href="mailto:info@fxbullstudio.in">info@fxbullstudio.in</a>
 						</li>
 					</ul>
 				</div>
@@ -43,7 +44,7 @@ function FooterContent() {
 						</a>
 					</li>
 					<li>
-						<a href="https://facebook.com/" target="_blank">
+						<a href="https://www.facebook.com/FX.BULL.Studio" target="_blank">
 							<i className="icon-facebook"></i>
 						</a>
 					</li>
@@ -55,6 +56,11 @@ function FooterContent() {
 					<li>
 						<a href="https://www.linkedin.com/" target="_blank">
 							<i className="icon-linkedin"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://api.whatsapp.com/send/?phone=+918866661139&text=Hello&type=phone_number&app_absent=0" target="_blank">
+						<WhatsAppIcon color="#fff" size={26}/>
 						</a>
 					</li>
 				</ul>

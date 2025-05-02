@@ -9,10 +9,11 @@ function HeroContent() {
 		<div className="aximo-hero-content">
 			<h1>
 				<span className="aximo-title-animation">
-					A creative
-					<img src={StarImg} alt="StarImg" />
+					We Are
 				</span>{" "}
-				design studio
+				The Brand Builders For Better Tomorrow
+				<img src={StarImg} alt="StarImg" />
+
 			</h1>
 			<p>
 				{`We're a creative design studio specializing in meeting the needs of the new generation.

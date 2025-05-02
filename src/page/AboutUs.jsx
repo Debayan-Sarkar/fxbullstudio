@@ -4,34 +4,34 @@ import About from "../components/home-one/about";
 import AutoSlider from "../components/home-one/auto-slider";
 import Teams from "../components/home-one/teams";
 // Teams images
-import Team1Img from "../assets/images/team/team1.png";
-import Team2Img from "../assets/images/team/team2.png";
-import Team3Img from "../assets/images/team/team3.png";
-import Team4Img from "../assets/images/team/team4.png";
+import Team1Img from "../assets/images/team/1.jpeg";
+import Team2Img from "../assets/images/team/2.jpeg";
+import Team3Img from "../assets/images/team/3.jpeg";
+import Team4Img from "../assets/images/team/4.jpeg";
 
 const teamsData = [
 	{
 		id: crypto.randomUUID(),
-		name: "Andrew Mark",
-		designation: "Creative Director",
+		name: "Krish",
+		designation: "Founder/Technical head",
 		img: Team1Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Jack Taylor",
-		designation: "Senior Designer",
+		name: "Cherry",
+		designation: "Video editor",
 		img: Team2Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Martine Joy",
-		designation: "Project Manager",
+		name: "Riya",
+		designation: "Manager/ Team Lead",
 		img: Team3Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Adam Straw",
-		designation: "Web Developer",
+		name: "Harsha",
+		designation: "Client coordinator",
 		img: Team4Img,
 	},
 ];

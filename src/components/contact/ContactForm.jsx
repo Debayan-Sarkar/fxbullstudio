@@ -32,7 +32,7 @@ function ContactForm() {
 				</div>
 
 				<div className="row">
-					<div className="col-lg-5 order-lg-2">
+					{/* <div className="col-lg-5 order-lg-2">
 						<div className="aximo-contact-thumb ">
 							<LazyLoadImage
 								src={ContactThumb}
@@ -42,8 +42,8 @@ function ContactForm() {
 								effect="blur"
 							/>
 						</div>
-					</div>
-					<div className="col-lg-7">
+					</div> */}
+					<div className="col-lg-12">
 						<div className="aximo-main-form">
 							<form onSubmit={handleSubmit(submitForm)}>
 								<div className="aximo-main-field">
@@ -52,6 +52,7 @@ function ContactForm() {
 											{...register("name", { required: "Name is required." })}
 											type="name"
 											name="name"
+											placeholder="Enter your name"
 											id="name"
 										/>
 									</Field>
@@ -62,6 +63,7 @@ function ContactForm() {
 											{...register("email", { required: "Email is required." })}
 											type="email"
 											name="email"
+											placeholder="Enter your email"
 											id="email"
 										/>
 									</Field>
@@ -72,13 +74,14 @@ function ContactForm() {
 											{...register("phone", { required: "Phone is required." })}
 											type="phone"
 											name="phone"
+											placeholder="Enter your phone number"
 											id="phone"
 										/>
 									</Field>
 								</div>
 								<div className="aximo-main-field">
 									<label>Write your message here...</label>
-									<textarea name="textarea"></textarea>
+									<textarea name="textarea" placeholder="Enter Your Message"></textarea>
 								</div>
 								<button id="aximo-main-btn" type="submit">
 									Send Message
